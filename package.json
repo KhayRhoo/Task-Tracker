@@ -1,0 +1,27 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "You will Learn how to build a Task tracker web app in Html, Css , Javascript, Mysql with the ability to display, create, edit and delete your tasks. Tasklist, To-do list,shopping list.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhayRhoo/Task-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhayRhoo/Task-Tracker/issues"
+  },
+  "homepage": "https://github.com/KhayRhoo/Task-Tracker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+  
+}
