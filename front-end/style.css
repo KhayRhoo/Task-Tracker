@@ -1,13 +1,24 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    background-color: rgb(62, 44, 137);
     color: black;
     text-align: center;
 
+}
+
+body {
+    background-color: rgb(62, 44, 137);
 }
 
 .head {
     border: 90px;
     font-size: 50px;
 }
+
+.taskEntry {
+    width: 50%;
+    margin: 30px auto;
+    height: 20px;
+    
+}
+

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title>Document</title>
+    <title>Task Tracker</title>
 </head>
 <body>
     <header class="head">
@@ -14,49 +14,25 @@
     
     </header>
     <div class="taskEntry">
-        <form id="taskform">
-            <input type="text" name="new-task-input" id="task" placeholder="Enter a Task...">
-            <input type="submit" id="submit" value="Add Task">
+        <form id="taskForm">
+            <input type="text" name="task" placeholder="Enter a Task..." size="30">
+            <input type="submit" value="Add Task">
+            <!-- <button type="button" id="submit">Add Task</button> -->
         </form>
     </div>
+    
+
+    <div class="list">
+        <div class="item">
+            <input type="text" value="Walk the dog" readonly/>
+            <button class="edit">Edit</button>
+            <button clas="delete">Delete</button>
+        </div>
+    </div>
+    
+
+   
 </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
-<!-- 
-        <section class="task-list">
-            <h2>Task</h2>
-            <div id="task"> -->
-
-
-
-
-
-                <!-- <div class="task">
-                    <div class="content">
-                        <input 
-                        type="text"
-                        class="text"
-                        value="My shiny task"
-                        readonly
-                        />
-                    </div>
-                    <div class="actions">
-                        <button class="edit">
-                            Edit
-                        </button>
-                        <button class="delete">
-                            Delete
-                        </button>
-                    </div>
-                </div> -->
 
